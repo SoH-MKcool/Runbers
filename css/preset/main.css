@@ -1,0 +1,92 @@
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+#footer-menu a {
+    color: white;
+}
+
+#footer-menu .a-big{
+    line-height: 5rem;
+}
+
+footer .navbar {
+    height: 3em;
+}
+
+footer .navbar-big{
+    height: 6rem;
+    font-size:20px;
+}
+
+.layout-navbar-fixed .wrapper .content-wrapper {
+    margin-top: calc(3.5rem + 1px);
+}
+.wrapper .content-wrapper {
+    background: white;
+    min-height: calc(100vh - calc(3.5rem + 1px + 3rem));
+}
+
+.bg-primary {
+    background-color: rgb(0, 64, 110) !important;
+
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgb(0, 126, 193);
+    border-color: rgb(0, 126, 193);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:target,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:focus {
+    background-color: rgba(0, 126, 193, 0.9);
+    border-color: rgba(0, 126, 193, 0.9);
+}
+
+.btn-info {
+    color: white;
+    background-color: rgb(0, 64, 110);
+    border-color: rgb(0, 64, 110);
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:not(:disabled):not(.disabled):active,
+.btn-info:target,
+.show > .btn-info.dropdown-toggle,
+.btn-info:focus {
+    background-color: rgba(0, 64, 110, 0.9);
+    border-color: rgba(0, 64, 110, 0.9);
+}
+
+.form-control:focus {
+    border-color: rgba(0, 126, 193, 0.5);
+}
+
+.bg-link {
+    color: #fff;
+    background-color: #343a40;
+    box-shadow: none;
+}
+
+.modal-xxl {
+    min-width: 90vw;
+}
+
+@media only screen and (max-width: 1280px) {
+    .modal-xxl {
+        min-width: 96vw;
+    }
+}

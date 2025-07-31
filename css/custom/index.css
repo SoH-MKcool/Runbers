@@ -1,0 +1,16 @@
+#currentNumber {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+#main {
+    justify-content: center;
+    text-align: center;
+}
+
+#currentNumberContainer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

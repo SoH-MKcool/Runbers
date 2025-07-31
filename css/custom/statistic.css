@@ -1,0 +1,66 @@
+.container {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tier {
+    font-weight: bold;
+}
+
+.NotQualified {
+    color: gray;
+}
+
+.Iron {
+    color: #616569;
+}
+
+.Bronze {
+    color: #C5832B;
+}
+
+.Silver {
+    color: #CAD3D7;
+}
+
+.Gold {
+    color: #CEA734;
+}
+
+.Platinum {
+    color: #D4D8DA;
+}
+
+.Diamond {
+    color: #ACCFE6;
+}
+
+.Emerald {
+    color: #50c878;
+}
+
+.Ruby {
+    color: #e0115f;
+}
+
+.Titan {
+    color: #ffcc00;
+}
+
+.PI {
+    color: #ff0000;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+
+#main {
+    background-color: #f4f4f4;
+    margin: 20px;
+    border-radius: 200px;
+    margin-top: 7%;
+    box-shadow: 10px 10px 10px 3px rgba(34, 34, 34, 0.298);
+
+}
